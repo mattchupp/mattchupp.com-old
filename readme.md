@@ -1,16 +1,16 @@
 # Personal Homepage
 
-## Setting Up
+## Setting Up Locally
 
-git clone this to location of your choosing
+		git clone *this* ~/to/location/of/your/liking
 
-make sure ruby is right version in Gemfile
+Edit Gemfile to get right version of ruby
 
-bundle install 
+		bundle install 
 
-rackup
+		rackup
 
-localhost:9292
+open localhost:9292 and party
 
 
 
