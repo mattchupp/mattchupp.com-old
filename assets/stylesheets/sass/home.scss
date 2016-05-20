@@ -1,0 +1,94 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+  // border: 2px solid white;
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 2em;
+
+  @media screen and (max-width: 1000px) {
+
+  }
+}
+
+.type {
+  font-size: 1.2em;
+  line-height: 1.7em;
+  padding-top: 30px;
+  padding-left: 32px;
+  font-weight: 300;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.project {
+  // border: 1px solid white;
+  width: 100%;
+  position: relative;
+}
+
+.project {
+  padding-left: 32px;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.project-type {
+  font-size: 1.2em;
+
+  @media screen and (max-width: 768px) {
+    padding-right: 16px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 90px;
+  letter-spacing: 8px;
+  padding: 0;
+  margin: 0;
+
+  a {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 0;
+  line-height: 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}

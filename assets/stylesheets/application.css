@@ -1,0 +1,99 @@
+.container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 2em; }
+
+.type {
+  font-size: 1.2em;
+  line-height: 1.7em;
+  padding-top: 30px;
+  padding-left: 32px;
+  font-weight: 300; }
+  @media screen and (max-width: 768px) {
+    .type {
+      padding-left: 16px;
+      padding-right: 16px; } }
+
+.project {
+  width: 100%;
+  position: relative; }
+
+.project {
+  padding-left: 32px; }
+  @media screen and (max-width: 768px) {
+    .project {
+      padding-left: 16px;
+      padding-right: 16px; } }
+
+.project-type {
+  font-size: 1.2em; }
+  @media screen and (max-width: 768px) {
+    .project-type {
+      padding-right: 16px; } }
+
+h1 {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 90px;
+  letter-spacing: 8px;
+  padding: 0;
+  margin: 0; }
+  h1 a {
+    text-decoration: none; }
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 40px; } }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 0;
+  line-height: 0; }
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 20px; } }
+
+a {
+  color: inherit;
+  text-decoration: underline; }
+  a:visited {
+    text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+/*
+** Variables for colors, font family, etc. for changing things easily! :)
+*/
+/* FONT  -- link in application.html.erb head */
+/* COLORS */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_self
+ */
+html, body {
+  margin: 0;
+  background-color: #313A41;
+  color: #69B9C1;
+  font-family: "Roboto", sans-serif; }
+
+footer {
+  text-align: center;
+  font-size: 12px; }
+
+.center {
+  text-align: center; }
+
+/*# sourceMappingURL=application.css.map */
