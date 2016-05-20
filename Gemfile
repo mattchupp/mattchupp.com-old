@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Latest Ruby
-ruby '2.3.0'
+ruby '1.9.3'
 
 # sinatra
 gem 'sinatra'
