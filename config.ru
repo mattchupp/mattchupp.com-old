@@ -19,7 +19,6 @@ class App < Sinatra::Base
   get '/projects' do
     erb :projects
   end
-
 end
 
 run App
