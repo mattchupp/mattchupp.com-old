@@ -10,11 +10,11 @@ Edit Gemfile to get right version of ruby
 
 		rackup
 
-open localhost:9292 and party
+open localhost:9292 and party 🎉
 
 ## Changing Styles 
-*make sure [bourbon](bourbon.io) is installed*
 		sass --watch assets/stylesheets/sass:assets/stylesheets
+- *make sure [bourbon](bourbon.io) is installed*
 
 
 
