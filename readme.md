@@ -14,7 +14,7 @@ open localhost:9292 and party 🎉
 
 ## Changing Styles 
 		sass --watch assets/stylesheets/sass:assets/stylesheets
-- - *make sure [bourbon](bourbon.io) is installed*
+- *make sure [bourbon](bourbon.io) is installed*
 
 
 
