@@ -3,3 +3,6 @@
 unicorn.rb
 logs/
 pids/
+assets/stylesheets/.DS_Store
+assets/stylesheets/sass/.DS_Store
+views/.DS_Store
