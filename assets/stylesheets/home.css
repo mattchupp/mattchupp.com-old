@@ -3,58 +3,60 @@
   max-width: 800px;
   margin: auto;
   padding-top: 2em; }
+  @media screen and (min-width: 768px) {
+    .container {
+      border: 2px solid white; } }
 
 .type {
-  font-size: 1.2em;
-  line-height: 1.7em;
-  padding-top: 30px;
-  padding-left: 32px;
-  font-weight: 300; }
-  @media screen and (max-width: 768px) {
+  line-height: 25px;
+  padding-left: 16px;
+  padding-right: 16px; }
+  @media screen and (min-width: 768px) {
     .type {
-      padding-left: 16px;
-      padding-right: 16px; } }
+      font-size: 20px;
+      line-height: 30px; } }
+
+@media screen and (min-width: 768px) {
+  .project-description {
+    font-size: 20px; } }
 
 .project {
+  padding-left: 16px;
   width: 100%;
   position: relative; }
 
-.project {
-  padding-left: 32px; }
-  @media screen and (max-width: 768px) {
-    .project {
-      padding-left: 16px;
-      padding-right: 16px; } }
+.lh-15 {
+  padding-top: 15px; }
 
-.project-type {
-  font-size: 1.2em; }
-  @media screen and (max-width: 768px) {
-    .project-type {
-      padding-right: 16px; } }
+.opacity-80 {
+  opacity: 0.8; }
+
+.opacity-60 {
+  opacity: 0.6; }
 
 h1 {
   text-align: center;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 90px;
-  letter-spacing: 8px;
+  font-size: 40px;
+  letter-spacing: 6px;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  line-height: 30px; }
   h1 a {
     text-decoration: none; }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     h1 {
-      font-size: 40px; } }
+      font-size: 90px;
+      line-height: 70px; } }
 
 h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 300;
   padding-top: 0;
   line-height: 0; }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     h2 {
-      font-size: 20px; } }
+      font-size: 40px; } }
 
 a {
   color: inherit;

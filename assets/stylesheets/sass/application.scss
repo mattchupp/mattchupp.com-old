@@ -1,5 +1,6 @@
 @import "home";
 @import "variables";
+@import "gradients";
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -18,7 +19,6 @@
 
  html, body {
    margin: 0;
-   background-color: $bg-color;
    color: $txt-color;
    font-family: $font;
  }
@@ -30,4 +30,9 @@
 
  .center {
    text-align: center;
+ }
+
+ .hw-100 {
+   height: 100vh;
+   width: 100%;
  }
