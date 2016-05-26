@@ -5,13 +5,12 @@
   padding-top: 2em; }
 
 .type {
-  line-height: 25px;
+  line-height: 1.6;
   padding-left: 16px;
   padding-right: 16px; }
   @media screen and (min-width: 768px) {
     .type {
-      font-size: 20px;
-      line-height: 30px; } }
+      font-size: 20px; } }
 
 @media screen and (min-width: 768px) {
   .project-description {
@@ -37,13 +36,13 @@ h1 {
   letter-spacing: 6px;
   padding: 0;
   margin: 0;
-  line-height: 30px; }
+  line-height: 1; }
   h1 a {
     text-decoration: none; }
   @media screen and (min-width: 768px) {
     h1 {
       font-size: 90px;
-      line-height: 70px; } }
+      line-height: 1; } }
 
 h2 {
   text-align: center;
